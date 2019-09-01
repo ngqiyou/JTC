@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:TalendNoSQLMetadata="http://www.talend.org/nosql" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendNoSQLMetadata:NoSQLConnection xmi:id="_ZCDlcMfgEem_R9vFgt7Xdw" name="mongo" label="mongo" dataPackage="_2AS5kMfkEem_R9vFgt7Xdw _2AUHuMfkEem_R9vFgt7Xdw _2AUHucfkEem_R9vFgt7Xdw _2AUHusfkEem_R9vFgt7Xdw" dbType="MONGODB">
+    <attributes xmi:id="_ZCDlccfgEem_R9vFgt7Xdw" key="DB_VERSION" value="MONGODB_3_0_X"/>
+    <attributes xmi:id="_ZCDlcsfgEem_R9vFgt7Xdw" key="HOST" value="localhost"/>
+    <attributes xmi:id="_ZCDlc8fgEem_R9vFgt7Xdw" key="PORT" value="27017"/>
+    <attributes xmi:id="_ZCDldMfgEem_R9vFgt7Xdw" key="DATABASE" value=""/>
+    <attributes xmi:id="_ZCDldcfgEem_R9vFgt7Xdw" key="REQUIRED_AUTHENTICATION" value="false"/>
+    <attributes xmi:id="_ZCDldsfgEem_R9vFgt7Xdw" key="USERNAME" value=""/>
+    <attributes xmi:id="_ZCDld8fgEem_R9vFgt7Xdw" key="PASSWORD" value=""/>
+    <attributes xmi:id="_ZCDleMfgEem_R9vFgt7Xdw" key="USE_REPLICA_SET" value="false"/>
+    <attributes xmi:id="_ZCDlecfgEem_R9vFgt7Xdw" key="REPLICA_SET" value="[]"/>
+  </TalendNoSQLMetadata:NoSQLConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_2AS5kMfkEem_R9vFgt7Xdw" name="JTC" dataManager="_ZCDlcMfgEem_R9vFgt7Xdw">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_2ATgoMfkEem_R9vFgt7Xdw" name="raw" id="__CjZsMfjEem_R9vFgt7Xdw" label="raw">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ApaJUMgREem_R9vFgt7Xdw" name="id" label="id" length="-1" talendType="id_Integer" key="true"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2AUHsMfkEem_R9vFgt7Xdw" name="Date" label="Date" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2AUHscfkEem_R9vFgt7Xdw" name="StoreID" label="StoreID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_e03igMfpEem_R9vFgt7Xdw" name="StoreName" label="StoreName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2AUHssfkEem_R9vFgt7Xdw" name="ProductID" label="ProductID" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iQ_EEMfpEem_R9vFgt7Xdw" name="ProductName" label="ProductName" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_kXBjgMfpEem_R9vFgt7Xdw" name="Color" label="Color" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nilgkMfpEem_R9vFgt7Xdw" name="Size" label="Size" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ognPEMfpEem_R9vFgt7Xdw" name="Manufacturer" label="Manufacturer" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2AUHs8fkEem_R9vFgt7Xdw" name="OnHandQuantity" label="OnHandQuantity" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2AUHtMfkEem_R9vFgt7Xdw" name="OnOrderQuantity" label="OnOrderQuantity" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_srkMkMfpEem_R9vFgt7Xdw" name="SafetyStockQuantity" label="SafetyStockQuantity" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_valXkMfpEem_R9vFgt7Xdw" name="UnitCost" label="UnitCost" length="-1" talendType="id_Float"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2AUHtcfkEem_R9vFgt7Xdw" name="DaysInStock" label="DaysInStock" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2AUHtsfkEem_R9vFgt7Xdw" name="MinDayInStock" label="MinDayInStock" length="-1" talendType="id_Integer"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2AUHt8fkEem_R9vFgt7Xdw" name="MaxDayInStock" label="MaxDayInStock" length="-1" talendType="id_Integer"/>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_2AUHuMfkEem_R9vFgt7Xdw" name="admin" dataManager="_ZCDlcMfgEem_R9vFgt7Xdw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_2AUHucfkEem_R9vFgt7Xdw" name="config" dataManager="_ZCDlcMfgEem_R9vFgt7Xdw"/>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_2AUHusfkEem_R9vFgt7Xdw" name="local" dataManager="_ZCDlcMfgEem_R9vFgt7Xdw"/>
+</xmi:XMI>
